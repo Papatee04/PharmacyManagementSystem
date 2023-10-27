@@ -57,7 +57,7 @@ th {
   background: rgb(34,193,195);
   background: linear-gradient(0deg, #05ffa3 0%, #2096ff 100%); */
     /* background: linear-gradient(to bottom, #8cc4f5, #05ffa3); */
-    background: #ffffff;
+    background: hwb(194 9% 41%);
     /* background: -moz-linear-gradient(top,#641eff 0,#a307dd 100%);
     background: -webkit-linear-gradient(top,#641eff 0,#a307dd 100%); */
     /* background: linear-gradient(to bottom,#7d07dd , #7d07dd 100%); */
@@ -125,7 +125,7 @@ border-radius: 25px;
 }
 
 .main-sidebar {
-    background-color: #121642 !important;
+    background-color: hwb(194 9% 41%); !important;
     color: white !important;
 }
 
@@ -399,7 +399,7 @@ p {
     white-space: nowrap;
 }
 
-.mmust {
+.Pharma {
     overflow: hidden;
     white-space: nowrap;
     font-size: 18px;
@@ -978,7 +978,7 @@ input::placeholder {
 }
 
 .swal2-icon.swal2-success {
-    border-color: #a5dc86;
+    border-color: #d6dc86;
     color: #a5dc86;
 }
 
@@ -1156,25 +1156,25 @@ swal2-icon.swal2-success {
 }
 
 .mojahi {
-    background: linear-gradient(to right, rgb(98, 98, 202), rgb(44, 124, 230)) !important;
+    background: #2da9e9 !important;
     border-radius: 5px;
     color: white;
 }
 
 .mojahi2 {
-    background: linear-gradient(to right, rgb(187, 53, 169), rgb(218, 76, 206)) !important;
+    background: #2da9e9 !important;
     border-radius: 5px;
-    color: white;
+    color: #2da9e9;
 }
 
 .mojahi3 {
-    background: linear-gradient(to right, rgb(141, 46, 160), rgb(181, 96, 221)) !important;
+    background: #2da9e9 !important;
     border-radius: 5px;
     color: white;
 }
 
 .mojahi4 {
-    background: linear-gradient(to right, rgb(45, 172, 52), rgb(83, 185, 36)) !important;
+    background: #2da9e9 !important;
     border-radius: 5px;
     color: white;
 }

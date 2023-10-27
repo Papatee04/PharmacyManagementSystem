@@ -1,0 +1,29 @@
+{% extends 'hod_templates/base_template.html'%} {% load static %} {% block page_title %}
+<h4>Dashboard</h4> {% endblock page_title %} {% block main_content %}
+<div class="content">
+    <div class="container">
+        <div class="col-md-4 mt-3">
+            <div class="card " style="  background: #e0eafc !important;
+              ">
+                <div class="pid-box-1 d-flex justify-content-center" data-pid-imprintid="8011">
+
+                    <img src="{{inventorys.drug_pic.url}}" data-orig-height="216" width="343" height="270" alt=" ">
+                </div>
+                <div class="pid-details pt-4">
+                    <ul class="ddc-list-unstyled ">
+                        <li><b>Drug:</b> <a href="#" class="imprintdruglink"> {{inventorys.drug}}</a></li>
+                        <li><b>Quantity:</b> {{inventorys.quantity}}</li>
+                        <li><b>Category:</b> <a href="#"> {{inventorys.category}}</a></li>
+                        <li><b>Dosage:</b> {{inventorys.dosage}}</li>
+                        <li><b>Received Quantity:</b> {{inventorys.receive_quantity}}</li>
+                        <li><b>Valid From:</b> {{inventorys.valid_from}}</li>
+                        <li><b>Exipiry Date:</b> {{inventorys.valid_to}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+{% endblock %}
